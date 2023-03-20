@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="images/favicon.ico">
+        <title>Project Gallery</title>
+        <link rel="stylesheet" href="styles/my-styles.css">
+        <meta name="description" content="Practise storing information in JS objects">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        
+    </head>
+ 
+    <body>
+
+        <main>
+            
+            <section>
+                <h1>Movie Data</h1>
+                <button id="orderByYearButton">Order by year</button>
+                <button id="orderByTitleButton">Order by title</button>
+            
+                    <div class="flex-container">                  
+                    </div>
+
+
+      
+            </section>
+
+            <section>
+                <h1>Add Movie</h1>
+                                      
+                    <div class="flex-container-form">
+
+
+                        <label>Title:</label>
+                        <input type="text" id="titleInput"></input>
+                        <br>
+                        <label>Plot:</label>
+                        <textarea id="plotInput"  rows="4" cols="50"></textarea>
+                        <br>
+                        <label>Cast:</label>
+                        <input type="text" id="castInput"></input>
+                        <br>
+                        <label>Runtime:</label>
+                        <input type="text" id="runtimeInput"></input>
+                        <br>
+                        <label>Rating:</label>
+                        <input type="text" id="ratingInput"></input>
+                        <br>
+                        <label>Year:</label>
+                        <input type="text" id="yearInput"></input>
+                        <br>
+                    
+                    <button id="addMovie" class="myBtn">Add Movie</button>
+                    </div>
+      
+            </section>
+                    
+        </main>
+        
+        <footer>
+            <p style="text-align:center">
+                No Copyright
+            </p>                                 
+        </footer>  
+
+        <script src="scripts/my-script.js"></script>  
+
+    </body>
+</html>
