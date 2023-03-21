@@ -1,68 +1,50 @@
-h1 {color: rgb(104, 76, 40);
+h1 {color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     text-align: center;}
 
-h2 {color: rgb(104, 76, 40);
+h2 {color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    font-size: large;
+    font-size: x-large;
     text-align: left;
-    margin: 1em;}
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+
+.highlight {
+    background: rgb(43, 60, 66);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 10px solid rgb(43, 60, 66); /* This is the only way I found to make the tab touch the container */
+    padding: 0.6em;}
 
 p  {font-family: 'Roboto', sans-serif;
-    margin: 1em;
-    text-align: left;}
-
+    text-indent: 2em;}
 
 article {font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: larger;
     text-align: left;
-    margin-top: 1em;
-    max-height: 50px;}
-    
-figure {
-    display: inline-block;
-    border: 2px solid;}
-
- img {
-    vertical-align: center; 
-    margin-top: 1em;
-    flex: 1 1 0; 
-    width: 100em;
-    } 
+    line-height : 1.5em;
+    flex: 1;
+    max-width: 40%;}
+ 
+img {
+    flex: 1;
+    max-width: 60%;
+    border-radius: 10px;} 
 
 body {
-    padding: 2em;} 
+    padding: 3em;} 
 
 .flex-container {
+    
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;    
-    justify-content: space-evenly;
-    padding: 2em;
-}
-
-.flex-nested-container {
-    display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap;     
-    justify-content: flex-start;
-    border: 1px solid; 
-}
-
-
-
-
-/* This is trick to detect smartphones */
-@media all and (pointer:none) , (pointer:coarse) {
-    body{background: rgb(230, 238, 241);}
-
-    .flex-container {flex-direction: row;
-                    }} 
-
-.myBtn {
-    background-color: #d4d4d4;
-    color: white;
-    padding: 1em;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    width: 8em;}
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 3em;
+    padding: 3em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: rgb(43, 60, 66);}
