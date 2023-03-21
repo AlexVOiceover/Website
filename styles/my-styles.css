@@ -12,12 +12,28 @@ p  {font-family: 'Roboto', sans-serif;
     margin: 1em;
     text-align: left;}
 
+
+article {font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 1em;
+    max-height: 50px;}
+    
+figure {
+    display: inline-block;
+    border: 2px solid;}
+
+ img {
+    vertical-align: center; 
+    margin-top: 1em;
+    flex: 1 1 0; 
+    width: 100em;
+    } 
+
 body {
     padding: 2em;} 
 
 .flex-container {
     display: flex;
-
     flex-direction: column;
     flex-wrap: wrap;    
     justify-content: space-evenly;
@@ -32,15 +48,7 @@ body {
     border: 1px solid; 
 }
 
-.flex-container-form {
-    display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap;     
-    justify-content: flex-start;
-    border: 1px solid;
-     padding: 2em;
-  
-}
+
 
 
 /* This is trick to detect smartphones */
