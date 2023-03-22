@@ -1,6 +1,8 @@
 h1 {color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    text-align: center;}
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 1em;}
 
 h2 {color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
@@ -8,43 +10,78 @@ h2 {color: rgb(255, 255, 255);
     text-align: left;
     margin-left: 1em;
     margin-right: 1em;
-    }
+    margin-bottom: 0.2em;}
+    
+section {margin-bottom: 7em;}
 
 .highlight {
-    background: rgb(43, 60, 66);
+    background: #2B3C42 ;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom: 10px solid rgb(43, 60, 66); /* This is the only way I found to make the tab touch the container */
-    padding: 0.6em;}
+    padding: 0.4em;}
 
-p  {font-family: 'Roboto', sans-serif;
-    text-indent: 2em;}
-
-article {font-family: 'Roboto', sans-serif;
+article {
+    font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     font-size: larger;
     text-align: left;
     line-height : 1.5em;
     flex: 1;
     max-width: 40%;}
+    
+p {font-family: 'Roboto', sans-serif;
+    text-indent: 2em;}
  
-img {
-    flex: 1;
+img {flex: 1;
     max-width: 60%;
     border-radius: 10px;} 
 
-body {
-    padding: 3em;} 
+body {padding: 3em;} 
 
 .flex-container {
-    
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+    overflow: clip;
     gap: 3em;
     padding: 3em;
     margin-bottom: 3em;
     border-radius: 10px;
     box-sizing: border-box;
-    background: rgb(43, 60, 66);}
+    background: #2B3C42;
+    filter: drop-shadow(12px 12px 10px rgb(92, 92, 92));}
+
+.collapsed {
+    height: 10em;
+    overflow: hidden;}
+
+.collapsible {
+    cursor: pointer;}
+
+.secondColour{
+    background-color: #0e260f;}
+
+.thirdColour{
+    background-color: #426656;}
+
+.grid-container {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #426656;
+    padding: 3em;
+    gap: 0.2em;
+    filter: drop-shadow(12px 12px 10px rgb(92, 92, 92));
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);}
+
+.item1 {
+    grid-column: col-start 0 /span 2;
+
+    }
+
+.item2 {
+    grid-column: col-start 1 /span 2;
+    }
