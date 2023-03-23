@@ -118,7 +118,7 @@ img {
         align-items: center;
         gap: 0.2em;
         padding: 0.5em;
-        border-radius: 2px;
+        border-radius: 10px;
     }
 
     .grid-container {gap: 0.5em;}
