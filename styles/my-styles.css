@@ -31,7 +31,8 @@ article {
     
 p {font-family: 'Roboto', sans-serif;
     text-indent: 2em;
-    line-height : 1.5em;}
+    line-height : 1.5em;
+    margin-top: 0em;}
  
 .cardImages {flex: 1;
     max-width: 60%;
@@ -91,11 +92,13 @@ body {padding: 3em;}
 .item2 {
     grid-column-start: 3;
     grid-column-end: 4;
-    text-align: right; }
+    text-align: right;
+    align-self: center;}
 
 .item3 {
     grid-column-start: 1;
-    grid-column-end: 2;}
+    grid-column-end: 2;
+    align-self: center;}
 
 .item4 {
     grid-column-start: 2;
@@ -132,5 +135,7 @@ img {
     article {max-width: 100%;}
 
     h2 {font-size: large;}
+
+    p {margin-top: 0em;}
                     
 } 
