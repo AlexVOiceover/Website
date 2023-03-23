@@ -43,6 +43,7 @@ body {padding: 3em;}
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-direction: row;
     width: 100%;
     overflow: clip;
     gap: 3em;
@@ -81,9 +82,7 @@ body {padding: 3em;}
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     font-size: larger;
-    text-align: left;
-
-    }
+    text-align: left;}
 
 .item1 {
     grid-column-start: 1;
@@ -115,12 +114,14 @@ img {
     } 
 
     .flex-container {
-        flex-direction: row;
+        flex-direction: column;
         gap: 0.2em;
-        padding: 0.2em;
+        padding: 0.5em;
         border-radius: 0px;
     }
-    .grid-container {gap: 0.2em;}
-    
-                
+
+    .grid-container {gap: 0.5em;}
+
+    h2 {font-size: large;}
+                    
 } 
