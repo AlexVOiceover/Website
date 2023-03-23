@@ -75,7 +75,7 @@ body {padding: 3em;}
     padding: 3em;
     column-gap: 2em;
     row-gap: 2em;
-    filter: drop-shadow(12px 12px 10px rgb(92, 92, 92));
+    filter: drop-shadow(12px 12px 10px #5C5C5C);
 }
 .grid-item {
 
@@ -109,7 +109,8 @@ img {
 
 @media all and (pointer:none) , (pointer:coarse) {
     body {
-        background: rgb(12, 124, 165);
+      /*  background: rgb(12, 124, 165); */
+      background: rgb(255, 255, 255);
         padding: 0.3em;
     } 
 
