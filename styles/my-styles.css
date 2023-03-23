@@ -123,6 +123,10 @@ img {
 
     .grid-container {gap: 0.5em;}
 
+    .cardImages {max-width: 100%;} 
+
+    article {max-width: 100%;}
+
     h2 {font-size: large;}
                     
 } 
