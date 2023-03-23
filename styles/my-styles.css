@@ -111,8 +111,12 @@ img {
 
 @media all and (pointer:none) , (pointer:coarse) {
     body{background: rgb(12, 124, 165);} 
-    .flex-container {flex-direction: row; gap: 3em;
-        padding: 3em;}
+    .flex-container {
+        flex-direction: row;
+        gap: 0.2em;
+        padding: 0.2em;
+        border-radius: 0px;
+    }
     .grid-container {gap: 0.2em;}
     
                 
