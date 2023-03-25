@@ -16,3 +16,6 @@ Here you will find links to the previous workshops, both the code and the deploy
 
 ## 4 `A peek to the future` 
 I wanted to add the last project of the application to this website, it is a great way to see in one glance my evolution in these weeks while preparing my aplication.
+
+
+Regarding the JavaScript part of this project we just need to add to each `h2.collapsible`, an event listener that adds or removes the class `collapsed`.
