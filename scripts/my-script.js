@@ -1,7 +1,7 @@
 console.log("Initialising console");
 
 
-const titles = document.querySelectorAll('h2.collapsible');
+const titles = document.querySelectorAll("h2.collapsible");
 
   // Loop through the title elements and add a click event listener to each
   titles.forEach(title => {
