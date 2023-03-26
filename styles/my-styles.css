@@ -82,8 +82,7 @@ body {padding: 3em;}
     padding: 3em;
     column-gap: 2em;
     row-gap: 2em;
-    filter: drop-shadow(12px 12px 10px #5C5C5C);
-}
+    filter: drop-shadow(12px 12px 10px #5C5C5C);}
 .grid-item {
 
     font-family: 'Roboto', sans-serif;
@@ -113,8 +112,10 @@ body {padding: 3em;}
 img {
     max-width: 100%;
     height: auto;
-    width: 100%;
-}
+    width: 100%;}
+
+a { color: #ADD8E6;
+    font-weight: bold;}
 
 @media all and (pointer:none) , (pointer:coarse) {
     body {
